@@ -17,9 +17,6 @@ express
 body-parser
 
 
-
-
-
 DB Setup
 
 
@@ -141,44 +138,17 @@ Setup the main.handlebars file so it's able to be used by Handlebars.
 Setup the index.handlebars to have the template that Handlebars can render onto.
 Create a button in index.handlebars that will submit the user input into the database.
 
+Installation
+To run the application locally, first clone this repository with the following command.
+
+git clone git@github.com:angrbrd/eat-da-burger.git
+Next, install the application dependencies.
+
+cd /burger
+npm install
+Finally, run the node server locally.
+
+node server
+Now, open the local application on port 8080 at the URL: http://localhost:8080/.
 
 
-
-
-Directory structure
-
-All the recommended files and directories from the steps above should look like the following structure:
-
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
