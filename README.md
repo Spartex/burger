@@ -141,7 +141,7 @@ Create a button in index.handlebars that will submit the user input into the dat
 Installation
 To run the application locally, first clone this repository with the following command.
 
-git clone git@github.com:angrbrd/eat-da-burger.git
+git clone https://github.com/Spartex/burger
 Next, install the application dependencies.
 
 cd /burger
